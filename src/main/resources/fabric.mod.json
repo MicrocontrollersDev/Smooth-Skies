@@ -1,41 +1,26 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "smoothskies",
 	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Smooth Skies",
+	"description": "Smooths out the skybox colors on far render distances.",
 	"authors": [
-		"Me!"
+		"Microcontrollers"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://modrinth.com/mod/smoothskies",
+		"sources": "https://github.com/MicrocontrollersDev/Smooth-Skies",
+		"issues": "https://github.com/MicrocontrollersDev/Smooth-Skies/issues"
 	},
-	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"license": "LGPL-3.0",
+	"icon": "assets/smoothskies/icon.png",
 	"environment": "*",
-	"entrypoints": {
-		"main": [
-			"com.example.ExampleMod"
-		],
-		"client": [
-			"com.example.ExampleModClient"
-		]
-	},
 	"mixins": [
-		"modid.mixins.json",
-		{
-			"config": "modid.client.mixins.json",
-			"environment": "client"
-		}
+		"smoothskies.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.15.0",
-		"minecraft": "~1.20.4",
-		"java": ">=17",
-		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
+		"minecraft": ">=1.19",
+		"java": ">=17"
 	}
 }
