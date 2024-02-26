@@ -2,7 +2,7 @@
 
 ## Download
 
-Downloads ~~can~~ will be found on the [Modrinth page](https://modrinth.com/mod/smoothskies).
+Downloads can be found on the [Modrinth page](https://modrinth.com/mod/smooth-skies).
 
 ## Features
 

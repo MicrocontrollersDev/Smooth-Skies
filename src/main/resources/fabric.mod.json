@@ -15,12 +15,22 @@
 	"license": "LGPL-3.0",
 	"icon": "assets/smoothskies/icon.png",
 	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.microcontrollers.smoothskies.SmoothSkies"
+		],
+		"modmenu": [
+			"dev.microcontrollers.smoothskies.config.ModMenuIntegration"
+		]
+	},
 	"mixins": [
 		"smoothskies.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.15.0",
-		"minecraft": ">=1.19",
-		"java": ">=17"
+		"minecraft": ">=1.20",
+		"java": ">=17",
+		"fabric-api": "*",
+		"yet_another_config_lib_v3": "*"
 	}
 }
